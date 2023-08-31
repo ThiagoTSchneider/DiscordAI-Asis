@@ -10,7 +10,7 @@ from gpt import comp
 
 
 set_api_key(elevenlabs_key)
-voice_model = "Asis"
+voice_model = "Adam"
 
 intents = discord.Intents.default()
 intents.message_content = True

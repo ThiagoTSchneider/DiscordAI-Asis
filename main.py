@@ -40,6 +40,6 @@ async def on_message(message):
 
             asyncio.create_task(generate_and_send_audio(message.channel, generated_response))
         else:
-            await message.channel.send("Konichiwa <@{user}> como posso ajudar?".format(user=message.author.id))
+            await message.channel.send("<@{user}> como posso ajudar?".format(user=message.author.id))
 
 client.run(discord_token)
